@@ -10,7 +10,7 @@ function generatePassword() {
   // Tells the user to try again if they click cancel
   if (!howMany) {return "You have to choose a number\nTry Again"}
   // Try again if they enter any non-number
-  if (!Number(howMany)) {return "Non-number values aren't allower\nTry Again"}
+  if (!Number(howMany)) {return "Non-number values aren't allowed\nTry Again"}
   // Turns string input into a number
   howMany = parseInt(howMany);
   // if numbers are outside the correct range Try again
